@@ -1,0 +1,308 @@
+Matias Hroncich
+
+2. Investigar la herramienta Git y Github, indicar que son como se usan y sus principales comandos
+
+Github se ha convertido en un referente para el desarrollo de software libre. Se podría decir que es una social network de código donde se alojan grandes proyectos
+
+Son dos herramientas separadas que se combinan para tener un sistema de control de versiones GIT y un repositorio y colaboración que es GitHub.
+
+Qué es Github
+Básicamente Github es un servicio de alojamiento de repositorios de software que ofrece opciones muy interesantes para trabajar en equipo. GitHub está basado en Git, un sistema de control de versiones muy popular entre los desarrolladores.
+
+¿Que es Git? 
+Es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente
+
+¿Qué nos aporta git?
+•	Auditoría del código: saber quién ha tocado qué y cuándo
+•	Control sobre cómo ha cambiado nuestro proyecto con el paso del tiempo
+•	Volver hacia atrás de una forma rápida
+•	Control de versiones a través de etiquetas: versión 1.0, versión 1.0.1, versión 1.1, etc. Sabremos exactamente que había en cada una de ellas y las diferencias entre cualquiera de ellas dos
+•	Seguridad: todas las estructuras internas de datos están firmadas con SHA1. No se puede cambiar el código sin que nos enteremos
+•	Mejora nuestra capacidad de trabajar en equipo
+•	Merging y branching extremadamente eficientes
+
+
+
+
+
+
+Comandos de Git
+
+
+   add        Add file contents to the index
+
+   bisect     Find by binary search the change that introduced a bug
+
+   branch     List, create, or delete branches
+
+   checkout   Checkout a branch or paths to the working tree
+
+   clone      Clone a repository into a new directory
+
+   commit     Record changes to the repository
+
+   diff       Show changes between commits, commit and working tree,    etc
+
+   fetch      Download objects and refs from another repository
+
+   grep       Print lines matching a pattern
+
+   init       Create an empty git repository or reinitialize an existing one
+
+   log        Show commit logs
+
+   merge      Join two or more development histories together
+
+   mv         Move or rename a file, a directory, or a symlink
+
+   pull       Fetch from and merge with another repository or a local branch
+
+   push       Update remote refs along with associated objects
+
+   rebase     Forward-port local commits to the updated upstream head
+
+   reset      Reset current HEAD to the specified state
+
+   rm         Remove files from the working tree and from the index
+
+   show       Show various types of objects
+
+   status     Show the working tree status
+
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+
+1. Investigar las diferencias que hay entre C/C++/C#, indicar al menos 5 de cada lenguaje.
+
+ 
+C es un lenguaje de programación creado en 1972 por Dennis M. Ritchie en los Laboratorios Bell como evolución del anterior lenguaje B, a su vez basado en BCPL. 
+
+Al igual que B, es un lenguaje orientado a la implementación de Sistemas Operativos, concretamente Unix. C es apreciado por la eficiencia del código que produce y es el lenguaje de programación más popular para crear software de sistemas, aunque también se utiliza para crear aplicaciones. 
+
+Se trata de un lenguaje débilmente tipificado de medio nivel pero con muchas características de bajo nivel. Dispone de las estructuras típicas de los lenguajes de alto nivel pero, a su vez, dispone de construcciones del lenguaje que permiten un control a muy bajo nivel. Los compiladores suelen ofrecer extensiones al lenguaje que posibilitan mezclar código en ensamblador con código C o acceder directamente a memoria o dispositivos periféricos.
+
+C++ es un lenguaje de programación diseñado a mediados de los años 1980 por Bjarne Stroustrup. La intención de su creación fue el extender al exitoso lenguaje de programación C con mecanismos que permitan la manipulación de objetos. En ese sentido, desde el punto de vista de los lenguajes orientados a objetos, el C++ es un lenguaje híbrido. 
+
+Posteriormente se añadieron facilidades de programación genérica, que se sumó a los otros dos paradigmas que ya estaban admitidos (programación estructurada y la programación orientada a objetos). Por esto se suele decir que el C++ es un lenguaje de programación multiparadigma.
+Una particularidad del C++ es la posibilidad de redefinir los operadores (sobrecarga de operadores), y de poder crear nuevos tipos que se comporten como tipos fundamentales.
+
+C# (pronunciado si sharp en inglés) es un lenguaje de programación orientado a objetos desarrollado y estandarizado por Microsoft como parte de su plataforma .NET, que después fue aprobado como un estándar por la ECMA (ECMA-334) e ISO (ISO/IEC 23270). C# es uno de los lenguajes de programación diseñados para la infraestructura de lenguaje común. 
+
+Su sintaxis básica deriva de C/C++ y utiliza el modelo de objetos de la plataforma .NET, similar al de Java, aunque incluye mejoras derivadas de otros lenguajes.
+
+Diferencias entre C# y C/C++.
+La gestión de memoria es automática
+, lo cual quiere decir que el desarrollador 
+sólo ha de preocuparse de crear un objeto cuando lo necesite pero no de 
+eliminarlo, ya que esta 
+tarea queda a cargo del 
+garbage collector
+(recolector de 
+basura). Este hecho cambia el sent
+ido del destructor de una clase. 
+-
+No se utilizan punteros
+. En su lugar se utilizan referencias a objetos. No 
+obstante, se permite utilizar punteros 
+en casos especiales, como por ejemplo 
+cuando es necesario acceder a código nativo (dll) al que hay que pasarle o que 
+devuelve punteros (al código C# de este
+tipo se le denomina código inseguro). 
+Existe una posibilidad de utilizar punter
+os en código seguro y es a través de 
+objetos de un tipo especial llamados De
+legates Su comportamiento es similar a 
+Marco Besteiro y Miguel Rodrígue
+z 
+Introducción al lenguaje C# 
+2/13
+2
+los punteros a funciones, con la ventaja de
+ser más seguro y respetar los tipos de 
+datos. 
+-
+Se cambian ciertos aspectos referentes a los operadores: 
+o
+No se utilizan los operadores 
+->
+ni 
+::
+. El único operador de acceso a 
+métodos de objetos que se ut
+iliza es el operador punto ‘
+.
+’ . 
+o
+Se incluyen dos operadores nuevos: 
+is
+y 
+typeof
+. 
+o
+Se cambia el funcionamiento de los operadores lógicos 
+&,
+^
+y
+|
+. 
+o
+La sobrecarga de operadores es diferente. 
+-
+Hay ciertas palabras clave que se 
+utilizan de modo distinto, como 
+extern
+y 
+static
+. 
+-
+El método 
+Main
+se declara de modo distinto. 
+-
+No se permiten las declaraciones adelantadas (
+forward
+). 
+-
+El manejo de errores se hace mediante excepciones. 
+-
+No se soportan las macros, aunque sí
+las directivas de preprocesador. 
+-
+No se utilizan ficheros de cabecera (
+.h
+) ni similares (IDL y librerías de tipos). El 
+código es compilado en unidades llamadas a
+ssemblies, en las cuales se almacena 
+la representación del código en un le
+nguaje intermedio llamado IL y los 
+metadatos, que sustituyen a los ficheros
+.h 
+de C++ (o a las librerías de tipos y 
+entradas de registro). Los assemblies se pueden generar a partir de código escrito 
+en otros lenguajes, como C++ o Visual Ba
+sic, lo cual quiere decir que desde C# 
+se puede utilizar código IL gene
+rado a partir de otros lenguajes. 
+-
+Los assemblies se agrupan en namespaces (que siguen una estructura 
+jerárquica). 
+-
+No existe una librería de tiempo de ejecución (Runtime) C# como en C y C++. 
+En su lugar existe un 
+Runtime .NET
+accesible a través de la clase 
+System
+. 
+-
+El mecanismo de herencia sufre cambios: 
+o
+No se permite herencia múltiple en clases pero sí en interfaces. 
+o
+La sobrescritura de métodos se ha de hacer utilizando el operador 
+explícito 
+override
+. 
+o
+El modificador 
+new
+permite ocultar miembros heredados. 
+-
+Existen tres posibles grupos de tipos: 
+o
+Tipos valor
+: son tipos primitivos como 
+char
+, 
+int
+, 
+struct
+... C# incluye 
+dos tipos nuevos, 
+boolean
+(
+True
+o 
+False
+, se utiliza en las sentencias 
+condicionales, en lugar de 
+integer
+, como se hacía en C++) y 
+decimal
+(para operaciones financieras). Las vari
+ables de tipo valor se guardan en 
+la pila. 
+o
+Tipos referencia
+: incluye los tipos 
+class
+, 
+interface
+, 
+delegate
+y 
+array
+. Los objetos referenciados por va
+riables de tipo referencia se 
+guardan en el 
+heap
+o 
+montón
+. Existen dos tipos de referencia 
+predefinidos, 
+object
+y 
+string
+. 
+object
+es el tipo base de la jerarquía de 
+clases .NET. Todo da
+to deriva del tipo 
+object
+mediante herencia simple 
+(sólo se permite herencia múltiple de interfaces). Todo dato de cualquier 
+otro tipo puede convertirse a 
+object
+(a esta conversión se la llama 
+boxing
+) permitiéndose también la operación inversa (
+unboxing
+). Esto 
+permite la existencia de lo que se
+denomina sistema de tipos unificado. 
+o
+Tipos puntero
+: sólo se permite su utilización en código inseguro. 
+-
+Las sentencias sufren ciertos cambios y aparecen otras nuevas: 
+o
+La sentencia 
+switch
+admite 
+string
+. 
+o
+La sentencia 
+foreach
+se puede aplicar a tipos y colecciones. 
+Marco Besteiro y Miguel Rodrígue
+z 
+Introducción al lenguaje C# 
+3/13
+3
+o
+Las sentencias 
+checked
+y 
+unchecked
+permiten controlar 
+desbordamientos. 
+-
+El mantenimiento de versiones es más 
+sencillo que en C y C++. Entre otros 
+aspectos, la compatibilidad a nivel binario deja de ser un problema. 
+-
+Se utilizan Atributos (Attributes) que son anotaciones que se adjuntan a una 
+clase para almacenar cierta información (f
+icheros de ayuda, versión, etc...) y que 
+pueden ser obtenidos mediante reflexión. 
+
